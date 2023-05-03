@@ -1,0 +1,78 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "Doctors Appointment",
+      "day": "March 5th at 2:30pm",
+      "reminder": true
+    },
+    {
+      "id": "2",
+      "text": "Meeting with boss",
+      "day": "March 6th at 1:30pm",
+      "reminder": true
+    },
+    {
+      "id": "3",
+      "text": "Food shopping",
+      "day": "March 7th at 2:00pm",
+      "reminder": false
+    },
+    {
+      "text": "dentist",
+      "day": "March 19 3:00 pm",
+      "reminder": false,
+      "id": "b7pln6f"
+    },
+    {
+      "text": "biillk",
+      "day": "sanhdkljasd",
+      "reminder": false,
+      "id": "skWlRQm"
+    },
+    {
+      "text": "cat",
+      "day": "night time",
+      "reminder": true,
+      "id": "KoFpt6W"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "usrname": "Nemotech",
+      "email": "Nemotech@gmail.com",
+      "password": "12345"
+    },
+    {
+      "username": "Hello",
+      "email": "ffreeda",
+      "password": "12344",
+      "id": 2
+    },
+    {
+      "username": "Hello",
+      "email": "Hello@hello.com",
+      "password": "1234567",
+      "id": 3
+    },
+    {
+      "username": "Techno",
+      "email": "Techno@tech.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "username": "Ali",
+      "email": "Ali@Aliexp.com",
+      "password": "123456789",
+      "id": 5
+    },
+    {
+      "username": "afaq",
+      "email": "afaq@afaq.com",
+      "password": "q21323",
+      "id": 6
+    }
+  ]
+}
