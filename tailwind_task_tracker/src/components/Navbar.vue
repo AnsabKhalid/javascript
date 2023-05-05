@@ -24,28 +24,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.nav {
-  background-color: rgb(33, 107, 33);
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-}
-
-.nav .links {
-  margin: auto;
-}
-
-.nav .links a {
-  color: #fff;
-  text-decoration: none;
-  padding-right: 20px;
-  font-size: 20px;
-}
-
-.nav .links a:hover {
-  color: steelblue;
-}
-</style>
+<style scoped></style>
