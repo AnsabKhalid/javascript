@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debate</title>
+
+    <style>
+        body {
+            background-size: 30px 30px;
+            background-image:
+                linear-gradient(to right, grey 1px, transparent 1px),
+                linear-gradient(to bottom, grey 1px, transparent 1px);
+                background-color: #254858;
+                padding: 30px 0;
+            }
+
+            .head {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 500px;
+            margin: 20px auto 0 auto;
+            }
+
+            .head_img {
+            padding-top: 20px;
+            height: 150px;
+            }
+
+            .title {
+            font-size: 30px;
+            }
+
+            .body {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            width: 500px;
+            margin: 10px auto;
+            }
+
+            .content {
+            position: relative;
+            padding: 10px 20px;
+            font-size: 18px;
+            }
+
+            .body_com_img {
+            height: 70px;
+            }
+
+            .inner_text {
+            position: absolute;
+            top: 70px;
+            left: 90px;
+            }
+
+            .chat_img {
+            position: absolute;
+            right: 20px;
+            }
+
+            .body_button {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding-top: 20px;
+            }
+
+            .accept_btn {
+            padding: 10px 38px;
+            background-color: rgba(24, 71, 115, 0.714);
+            color: #fff;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+            }
+
+            .decline_btn {
+            padding: 10px 38px;
+            background-color: rgba(129, 135, 141, 0.714);
+            color: #fff;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="check">
+        <div class="head">
+            <img src="images/referee-with-pop.png" class="head_img" alt="Referee">
+            <h2 class="title">Join the Debate</h2>
+        </div>
+        <div class="body">
+            <div class="content">
+                <p>Hi Dan,</p>
+                <p>Elon Musk has invited you to substantiate your position in <img src="images/head-to-head.png" alt="Communication" class="body_com_img"> <h5 class="inner_text">"Mars or Bust" regarding "Mars is a Bust."</h5></p>
+                <p>In the interest of public learning, discussions on the Objectively Forum are shareable via social media.</p>
+                <p>The discussion will be moderated using a mix of AI, threaded markup, and visual reasoning <img src="images/argument-mapping.png" alt="Chatting" class="chat_img"> to bring out the best <br> ideas from each side.</p>
+                <p>Should we include your thoughts?</p>
+    
+                <div class="body_button">
+                    <button class="accept_btn">Accept</button>
+                    <button class="decline_btn">Decline</button>
+                </div>
+                <p>Happy arguing, <br> Objectively</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
